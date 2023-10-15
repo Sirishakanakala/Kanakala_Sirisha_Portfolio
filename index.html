@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirisha Kanakala - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"> </script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"></i> Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>I'm <span>Sirisha Kanakala</span><br> From Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+<!-------------------ABOUT----------------------------------------------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="images/cover_photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me </h1>
+                    <p>Passionate about coding and web development; motivated learner keen to learn various Techs and implement them in real-world projects; Looking forward to work on some real-life projects and open to full time opportunities.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active_link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('position')">Position of Responsibility</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Experienced</span><br>C++ | Data Structures and Algorithms | HTML | CSS | Javascript </li>
+                            <li><span>Intermediate</span><br>DBMS | OOPS | SQL | Python</li>
+                            <li><span>Familiar</span><br> Operating Systems | Computer Networks | React Js</li>
+                            <li><span>Course Work</span><br>Problem Solving and Computer Programming<br>Data Structures and Algorithms<br>Python | SQL <br> Marketing Management <br> Management Information Systems </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="position">
+                        <ul>
+                            <li><span>Nature Club, NITW</span><br>General Secretary</li>
+                            <li><span>Dance and Dramatics Club, NITW</span><br>Joint Secretary</li>
+                            <li><span>Photography Club, NITW</span><br>Joint Secretary</li>
+                            <li><span>National Service Scheme Club, NITW</span><br>Joint Secretary</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>National Institute of Technology Warangal</span><br>Biotechnology   (Dec 2020 - May 2024) <br>CGPA: 7.82</li>
+                            <li><span>Narayana Junior College</span><br>Intermediate   (Apr 2019 - Mar 2020) <br> Percentage: 98.4%</li>
+                            <li><span>Sri Sai Chaitanya High School</span><br>Tenth   (Apr 2017 - Mar 2018) <br>GPA: 10</li>
+                        </ul>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+<!----------------------Services------------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='fas fa-code'></i>
+                    <h2>Software Development</h2>
+                    <p>Enthusiastic and motivated Software Developer with a strong foundation in computer science principles and a passion for creating innovative solutions.Proficient in C++ , DSA with a dedication to continuous learning and staying updated with the latest industry trends.  .Eager to leverage my skills and contribute to cutting-edge software projects.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <i class='fab fa-html5'></i>
+                    <h2>Frontend Development</h2>
+                    <p>Talented and driven Frontend Developer with a proficiency in HTML, CSS, JavaScript, and React.js. Skilled in creating responsive and visually appealing user interfaces. A detail-oriented problem solver with a passion for delivering exceptional user experiences. Constantly seeking opportunities to enhance skills and stay updated with the latest frontend technologies.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <i class='fas fa-table'></i>
+                    <h2>Data-Analyst</h2>
+                    <p>Motivated and detail-oriented Data Analyst with proficiency in Python, SQL, and database management systems (DBMS).Excel. Adept at leveraging data to uncover valuable insights and trends. Possesses a strong analytical mindset and the ability to communicate complex findings in a clear and actionable manner. Eager to apply skills and contribute to data-driven solutions.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<!-------------projects--------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/newsadda.jpg" alt="">
+                <div class="layer">
+                    <h3>NEWS ADDA</h3>
+                    <p>A website where you can surf through various NEWS headlines</p>
+                    <a href="https://github.com/Sirishakanakala/NEWSADDA"><i class='fa fa-external-link'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/textutils.png" alt="">
+                <div class="layer">
+                    <h3>Textutils</h3>
+                    <p>A website where you can perform different operations on the text</p>
+                    <a href="https://github.com/Sirishakanakala/Textutils"><i class='fa fa-external-link'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/to_do_list.jpg" alt="">
+                <div class="layer">
+                    <h3>To Do List</h3>
+                    <p>To efficiently manage tasks, set priorities, and track progress.</p>
+                    <a href="https://sirishakanakala.github.io/Todolist/"><i class='fa fa-external-link'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/drum_kit.jpeg" alt="">
+                <div class="layer">
+                    <h3>Drum kit</h3>
+                    <p>To play and experiment with different drum sounds through an user-friendly interface.</p>
+                    <a href="https://sirishakanakala.github.io/Drum-kit/"><i class='fa fa-external-link'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/dice_game.jpg" alt="">
+                <div class="layer">
+                    <h3>Dice Game</h3>
+                    <p>Interactive dice game using JavaScript</p>
+                    <a href="https://sirishakanakala.github.io/DiceGame/"><i class='fas fa-external-link-alt'></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn"> See more</a> -->
+    </div>
+</div>
+<!-------------contact------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-send"></i>sirishasiri1803@gmail.com</p>
+                <p><i class='fas fa-phone-alt'></i>7989742339</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sirisha-kanakala-879394200/"><i class='fab fa-linkedin'></i></a>
+                    <a href="https://github.com/Sirishakanakala"><i class='fab fa-github'></i></a>
+                    <a href="https://leetcode.com/ks872017/"><i class="cib-leetcode"></i>a>
+                </div>  
+                <a href="images/Kanakala Sirisha_Resume.pdf" download class="btn btn2">Download Resume</a>  
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class='fas fa-copyright'></i> Sirisha Kanakala </p>
+    </div>
+</div>
+</body>
+</html>
+<!-----script----------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active_link");
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active_link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+<!------------------------------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxUEPnvj0Tpe186RCaWuoiYz3O3WUismNvv5KJWYMUQ_yAZ9VLSzXWSDfFHbuugBP8wZA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  
+</script>
