@@ -82,14 +82,14 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis:35%;
+    flex-basis:28%;
 }
 .about-col-1 img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .about-col-2{
-    flex-basis: 60%; 
+    flex-basis: 70%; 
 }
 .subtitle{
     font-size: 60px;
@@ -317,9 +317,10 @@ form .btn2{
 nav .fa{
     display: none;
 }
-@media only screen and (max-width: 800px){
+@media (max-width: 500px){
     #header{
-        background-image: url(images/background.png);
+        width: 100%;
+        background-image: url(images/background_photo.png);
     }
     .header-text{
         margin-top: 30%;
